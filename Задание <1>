@@ -20,6 +20,11 @@ public static void Methods()
     string desrever = ReverseString(str);
     Console.WriteLine($"Перевернутая строка : {desrever}");
 
+    // 5. Метод, который проверяет, является ли строка палиндромом
+    string palind = "Справа налево";
+    bool isPalindrome = IsPalindrome(palind);
+    Console.WriteLine($"Это \"{palind}\" является палиндром? {isPalindrome}");
+
     // 6. Метод, который принимает массив чисел и возвращает их среднее значение
     int[] n = { 1, 2, 3, 4, 5 };
     double average = AverageOfArray(n);
