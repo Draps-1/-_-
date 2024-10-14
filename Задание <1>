@@ -1,0 +1,31 @@
+public static void Methods()
+{
+    // 1. Метод, который принимает два числа и возвращает их сумму
+    int number1 = 20, number2 = 5;
+    int summa = SumOfTwoNumbers(number1, number2);
+    Console.WriteLine($"Сумма {number1} и {number2} равна {summa}");
+
+    // 2. Метод, который проверяет, является ли число четным
+    int num = 4;
+    bool isEven = IsEven(num);
+    Console.WriteLine($"Является ли {num} четным числом? {isEven}
+
+    // 3. Метод, который находит факториал
+    int number = 5;
+    int fact = Factorial(number);
+    Console.WriteLine($"Факториал от {number} равен {fact}");
+
+    // 4. Метод, который принимает строку и возвращает ее в обратном порядке
+    string str = "строка";
+    string desrever = ReverseString(str);
+    Console.WriteLine($"Перевернутая строка : {desrever}");
+
+    // 6. Метод, который принимает массив чисел и возвращает их среднее значение
+    int[] n = { 1, 2, 3, 4, 5 };
+    double average = AverageOfArray(n);
+    Console.WriteLine($"Среднее значение по массиву равно: {average}");
+}
+static void Main(string[] args)
+{
+    Methods();
+}
